@@ -1,1 +1,1 @@
-docker.io/terrygmx/go-httpserver
+https://hub.docker.com/repository/docker/terrygmx/go-httpserv
