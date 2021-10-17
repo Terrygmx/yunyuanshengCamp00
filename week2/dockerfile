@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.16-alpine AS build
 RUN mkdir /app
 ADD httpserver /app
 WORKDIR /app/src/
