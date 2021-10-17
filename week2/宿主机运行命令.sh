@@ -1,12 +1,12 @@
 # 构建本地镜像
 cd week2
-docker build  -t go-httpserver .
+docker build  -t go-http2 .
 
 #上传到docker仓库
-docker tag go-httpserver terrygmx/go-httpserver:latest
-docker push terrygmx/homework:latest
+docker tag go-http2 terrygmx/go-httpserv:latest
+docker push terrygmx/go-httpserv:latest 
 # 通过 Docker 命令本地启动 httpserver
-docker run terrygmx/go-httpserver
+docker run terrygmx/go-httpserv
 
 
 # 查询容器IP配置
