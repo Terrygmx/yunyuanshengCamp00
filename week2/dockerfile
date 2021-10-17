@@ -1,0 +1,6 @@
+FROM golang:latest
+RUN mkdir /app
+ADD httpserver /app
+WORKDIR /app/src/
+RUN go build -o main .
+CMD ["/app/src/main"]
